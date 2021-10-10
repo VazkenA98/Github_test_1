@@ -43,6 +43,9 @@ Merge
 # Merge changes into current branch
 $ git merge <branch_name>
 
+Resolve Conflict
+$ git mergetool
+
 Clone
 $ git clone <remote_URL>
 
