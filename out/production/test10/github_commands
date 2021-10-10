@@ -1,0 +1,65 @@
+INIT
+# change directory to codebase
+$ cd /file/path/to/code
+
+# make directory a git repository
+$ git init
+
+Status
+$ git status
+
+ADD
+# To add all files not staged:
+$ git add .
+
+# To stage a specific file:
+$ git add index.html
+
+# To stage an entire directory:
+$ git add css
+
+Commit
+# Adding a commit with message
+$ git commit -m "Commit message in quotes"
+
+Branch
+# Create a new branch
+$ git branch <branch_name>
+
+# List all remote or local branches
+$ git branch -a
+
+# Delete a branch
+$ git branch -d <branch_name>
+
+Checkout
+# Checkout an existing branch
+$ git checkout <branch_name>
+
+# Checkout and create a new branch with that name
+$ git checkout -b <new_branch>
+
+Merge
+# Merge changes into current branch
+$ git merge <branch_name>
+
+Clone
+$ git clone <remote_URL>
+
+Pull
+$ git pull <branch_name> <remote_URL/remote_name>
+
+Push
+$ git push <remote_URL/remote_name> <branch>
+
+# Push all local branches to remote repository
+$ git push —all
+
+Log
+# Show entire git log
+$ git log
+
+
+
+
+
